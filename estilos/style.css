@@ -13,8 +13,7 @@ html,body {
 }
 
 body {
-background: url(../imagens/fundo-rodovia.jpg) no-repeat center center;
-background-size: cover;
+background: url(../imagens/fundo-textura.jpg) repeat center center;
 background-attachment: fixed;
 }
 
@@ -31,4 +30,12 @@ section#telefone {
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png);
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 23px;
+    width: 269px;
+    height: 471px;
 }
